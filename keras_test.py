@@ -18,6 +18,7 @@ test_dir = "/content/drive/My Drive/Asgn1/testing_data/"
 ### List all test images and iterate over them for prediction ###
 img_files = os.listdir(test_dir)
 cls_predct = []
+img_width, img_height = 300, 300
 
 for i in range(len(img_files)):
    
