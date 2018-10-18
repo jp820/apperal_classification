@@ -96,13 +96,13 @@ SOURCE_FOLDER = '/content/drive/My Drive/Asgn1'
 history = model.fit_generator(
         train_generator,
         steps_per_epoch=2000 // batch_size,
-        epochs=100,
+        epochs=50,
         validation_data=validation_generator,
         validation_steps=320 // batch_size)
 
 ### Save trainined model ###
 SOURCE_FOLDER = '/content/drive/My Drive/Asgn1'
-model.save(os.path.join(SOURCE_FOLDER ,'config5_100_epochs_try1.h5'))
+model.save(os.path.join(SOURCE_FOLDER ,'config5_50_epochs_try2.h5'))
 
 ### --- Training summary plots --- ###
 
