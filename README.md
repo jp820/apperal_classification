@@ -10,3 +10,5 @@ Prediction on new images is done by keras_test.py. Update test_dir with director
 Keras model trained on 16k images for 30 epochs can downloaded from model_file.txt (google drive share link). 
 
 Results on test images can be found in Final_keras_fifth_model2_result.xlsx.
+
+Similarly a model can be trained in tensorflow using tensorflow_train.py and prediction using tensorflow_test.py.
