@@ -1,5 +1,5 @@
 # apperal_classification
-Apperal classification using tensorflow and keras 
+Apperal pattern classification using tensorflow and keras 
 
 Data augmentation can be done using scripts: 'Data_augmentation1_scaling.py' for center scaling images at different scales and 'Data_augmentation1_flip.py' for horizontal flip of images.
 
